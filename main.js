@@ -43,3 +43,5 @@ class Ball {
         ctx.fill();
     }
 }
+
+const testBall = new Ball(50, 100, 4, 4, blue, 10);
