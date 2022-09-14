@@ -35,4 +35,11 @@ class Ball {
         this.color = color;
         this.size = size;
     }
+//begins drawing the ball. No idea whats going on here really, need some clearing up
+    draw() {
+        ctx.beginPath();
+        ctx.fillStyle = this.color;
+        ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
+        ctx.fill();
+    }
 }
