@@ -23,8 +23,11 @@ function randomRGB() {
     )`;
 }
 
+//Determines class Ball
 class Ball {
+//Has a constructor for each property inside (). 
     constructor(x, y, velX, velY, color, size) {
+// 'this.' refers to the spacific ball that has been made
         this.x = x;
         this.y = y;
         this.velX = velX;
